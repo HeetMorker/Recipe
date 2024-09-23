@@ -27,30 +27,37 @@ Edit and delete their own recipes.
 Search for recipes by title.
 View detailed information for each recipe.
 Secure their data with JWT-based authentication.
+
 Features
+
 Backend Features
 User Authentication: Users can register, login, and get authenticated with JSON Web Tokens (JWT).
 CRUD Operations: Users can create, view, update, and delete their recipes.
 Image Uploads: Users can upload images for their recipes, which are stored using Multer.
 Search & Pagination: Recipes can be searched by title with pagination for large datasets.
 Error Handling: Consistent error handling for invalid inputs, authentication, and CRUD operations.
+
 Frontend Features
 Responsive Design: A fully responsive UI using React and styled with Tailwind CSS.
 Recipe List: Display recipes with pagination and search functionality.
 Recipe Details: Detailed view of each recipe, including title, ingredients, instructions, and image.
 User Recipes: Users can manage their own recipes, editing or deleting them as needed.
 Authentication: Secure login and registration system.
+
 Technologies Used
+
 Backend:
 Node.js with Express.js for building the RESTful API.
 MongoDB with Mongoose for the database and schema modeling.
 JWT (JSON Web Tokens) for secure user authentication.
 Multer for image uploads.
+
 Frontend:
 React.js for building the user interface.
 Axios for making API calls to the backend.
 React Router for navigation.
 Tailwind CSS or Bootstrap for styling.
+
 Installation
 Prerequisites:
 Node.js (v14+)
