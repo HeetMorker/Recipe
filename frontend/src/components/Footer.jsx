@@ -12,7 +12,7 @@ const Footer = () => {
                                 <ul>
                                     <li>
                                         <i className="flaticon-placeholder" />
-                                        <p>1247/Plot No. 39, 15th Phase, Colony, Kkatpally, Hyderabad</p>
+                                        <p>1247/Plot No. 39, Palanpur Patiya, Adajan, Surat</p>
                                     </li>
                                     <li>
                                         <i className="flaticon-telephone" />
@@ -74,7 +74,7 @@ const Footer = () => {
                             <p>Copyright <span className="current-year">2024</span> All rights reserved.</p>
                         </div>
                         <div className="col-xl-6 col-md-6 text-md-end">
-                            <span className="copyright-text">Crafted With <span className="heart" /> by <a href="https://dexignzone.com/" target="_blank">DexignZone</a></span>
+                            <span className="copyright-text">Crafted With <span className="heart" /> by <a href="https://dexignzone.com/" target="_blank">Heet Morker</a></span>
                         </div>
                     </div>
                 </div>

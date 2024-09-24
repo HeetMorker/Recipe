@@ -285,16 +285,15 @@ const Index = () => {
         fetchRecipes();
     }, []);
 
-    // Handle delete recipe
     const handleDelete = async (recipeId) => {
         const token = localStorage.getItem('token');  // Ensure the token is valid
         if (!token) {
             console.error('No token found. User may not be authenticated.');
             return;
         }
-
+    
         try {
-            await axios.delete(`http://localhost:5000/api/recipes/${recipeId}`, {
+            const response = await axios.delete(`http://localhost:5000/api/recipes/${recipeId}`, {
                 headers: {
                     Authorization: `Bearer ${token}`,  // Authorization header for protected routes
                 },
@@ -302,10 +301,15 @@ const Index = () => {
             setMessage('Recipe deleted successfully!');
             setRecipes(recipes.filter(recipe => recipe._id !== recipeId));  // Remove the deleted recipe from the state
         } catch (error) {
-            setMessage('Failed to delete recipe.');
+            if (error.response && error.response.status === 403) {
+                setMessage('You are not authorized to delete this recipe.');
+            } else {
+                setMessage('You are not authorized to delete this recipe.');
+            }
             console.error('Error deleting recipe:', error.response ? error.response.data : error.message);  // Log the exact error
         }
     };
+    
 
     // Handle search filter change
     const handleFilterChange = (e) => {
@@ -340,7 +344,7 @@ const Index = () => {
                 <div className="row">
                     <div className="col-xl-9 col-lg-8 m-b30">
                         {error && <p className="text-center text-danger">{error}</p>}
-                        {message && <p className="text-center text-success">{message}</p>}
+                        {message && <p className="text-center text-primary">{message}</p>}
                         <div className="row loadmore-content">
                             {filteredRecipes.length > 0 ? (
                                 filteredRecipes.map((recipe) => (

@@ -7,13 +7,13 @@ const Header = () => {
                 <div className="main-bar clearfix ">
                     <div className="container clearfix">
                         <div className="logo-header mostion">
-                            <a href="index.html" className="anim-logo"><img src="../assets/images/logo.png" alt="/" /></a>
-                            <a href="index.html" className="anim-logo-white"><img src="../assets/images/logo2.png" alt="/" /></a>
+                            <a href="/" className="anim-logo"><img src="../assets/images/logo.png" alt="/" /></a>
+                            <a href="/" className="anim-logo-white"><img src="../assets/images/logo2.png" alt="/" /></a>
                         </div>
 
                         <div className="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
                             <div className="logo-header">
-                                <a href="index.html" className="anim-logo"><img src="../assets/images/logo.png" alt="/" /></a>
+                                <a href="/" className="anim-logo"><img src="../assets/images/logo.png" alt="/" /></a>
                             </div>
                             <ul className="nav navbar-nav navbar white">
                                 <li><a href="/">Home</a></li>
