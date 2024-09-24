@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const userRoutes = require('./routes/userRoutes');
 const recipeRoutes = require('./routes/recipeRoutes');
-const db = require("./config/db")
 const path = require('path');
 
 // Initialize app
@@ -24,7 +23,6 @@ app.use('/api/users', userRoutes);
 app.use('/api/recipes', recipeRoutes);
 
 app.get('/', (req, res) => {
-    db(); 
   res.send('Recipe Management API is running...');
 });
 
