@@ -31,11 +31,11 @@ const Footer = () => {
                             <div className="widget widget_services">
                                 <h5 className="footer-title">Our Links</h5>
                                 <ul>
-                                    <li><a href="index.html"><span>Home</span></a></li>
-                                    <li><a href="about-us.html"><span>About Us</span></a></li>
-                                    <li><a href="services.html"><span>Services</span></a></li>
-                                    <li><a href="team.html"><span>Team</span></a></li>
-                                    <li><a href="blog-standard.html"><span>Blog</span></a></li>
+                                    <li><a href="/"><span>Home</span></a></li>
+                                    <li><a href="/"><span>About Us</span></a></li>
+                                    <li><a href="/"><span>Services</span></a></li>
+                                    <li><a href="/"><span>Team</span></a></li>
+                                    <li><a href="/"><span>Blog</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -43,11 +43,11 @@ const Footer = () => {
                             <div className="widget widget_services">
                                 <h5 className="footer-title">OUR SERVICES</h5>
                                 <ul>
-                                    <li><a href="blog-open-gutenberg.html"><span>Strategy &amp; Research</span></a></li>
-                                    <li><a href="services.html"><span>Fast Delivery</span></a></li>
-                                    <li><a href="contact-us.html"><span>Seat Reservation</span></a></li>
-                                    <li><a href="shop-style-1.html"><span>Pickup In Store</span></a></li>
-                                    <li><a href="our-menu-1.html"><span>Our Menu</span></a></li>
+                                    <li><a href="/"><span>Strategy &amp; Research</span></a></li>
+                                    <li><a href="/"><span>Fast Delivery</span></a></li>
+                                    <li><a href="/"><span>Seat Reservation</span></a></li>
+                                    <li><a href="/"><span>Pickup In Store</span></a></li>
+                                    <li><a href="/"><span>Our Menu</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -55,11 +55,11 @@ const Footer = () => {
                             <div className="widget widget_services">
                                 <h5 className="footer-title">Help Center</h5>
                                 <ul>
-                                    <li><a href="faq.html"><span>FAQ</span></a></li>
-                                    <li><a href="shop-style-1.html"><span>Shop</span></a></li>
-                                    <li><a href="shop-style-2.html"><span>Category Filter</span></a></li>
-                                    <li><a href="testimonial.html"><span>Testimonials</span></a></li>
-                                    <li><a href="contact-us.html"><span>Contact Us</span></a></li>
+                                    <li><a href="/"><span>FAQ</span></a></li>
+                                    <li><a href="/"><span>Shop</span></a></li>
+                                    <li><a href="/"><span>Category Filter</span></a></li>
+                                    <li><a href="/"><span>Testimonials</span></a></li>
+                                    <li><a href="/"><span>Contact Us</span></a></li>
                                 </ul>
                             </div>
                         </div>
